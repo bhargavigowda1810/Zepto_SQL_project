@@ -27,7 +27,6 @@ outOfStock: Boolean flag indicating stock availability
 
 quantity: Number of units per package (mixed with grams for loose produce)
 
-
 1.🔍 Data Exploration
 Counted the total number of records in the dataset
 
@@ -41,12 +40,12 @@ Compared in-stock vs out-of-stock product counts
 
 Detected products present multiple times, representing different SKUs
 
-2. 🧹 Data Cleaning
+2.🧹Data Cleaning
 Identified and removed rows where MRP or discounted selling price was zero
 
 Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
-3.📊 Business Insights
+3.📊Business Insights
 Found top 10 best-value products based on discount percentage
 
 Identified high-MRP products that are currently out of stock
